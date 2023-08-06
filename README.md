@@ -13,8 +13,8 @@
 2. Модель Catboost c параметрами: {'depth': 6, 'n_estimators':300, verbose=100, random_state=12345, class_weights = [0.2, 0.8]}
    удовлетворяет решению задачи.
    Модель имеет показатели:
-   ROC-AUC мера финальной модели для CatBoost на тестовой выборке: 0.9433
-   Точность accuracy финальной модели для CatBoost на тестовой выборке: 0.8306
-   При этом процент FalsePositive составил чуть более 1%
+   ROC-AUC мера финальной модели для CatBoost на тестовой выборке: 0.9433.
+   Точность accuracy финальной модели для CatBoost на тестовой выборке: 0.8306.
+   При этом процент FalsePositive составил чуть более 1%.
 
 3. Важнами признаками для построения модели являются: overall_worst_overdue_state_12, ratio_history_100, ratio_sum_outstanding_to_open_sum, is_lost_100, count_all_credits. Не обязательно использовать остальные признаки для базовой модели.
